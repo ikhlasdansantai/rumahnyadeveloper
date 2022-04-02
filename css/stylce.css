@@ -639,7 +639,6 @@ h2.our-team-title::after {
     z-index: 1;
   }
   .trick ul.slide {
-    position: absolute;
     transform: translateX(0);
     opacity: 0.8;
   }
