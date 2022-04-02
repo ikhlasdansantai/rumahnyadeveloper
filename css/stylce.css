@@ -14,6 +14,11 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+.container-all {
+  position: relative;
+  z-index: 999999;
+  overflow-x: hidden;
+}
 body {
   overflow-x: hidden;
   font-family: sans-serif;
@@ -634,6 +639,7 @@ h2.our-team-title::after {
     z-index: 1;
   }
   .trick ul.slide {
+    position: absolute;
     transform: translateX(0);
     opacity: 0.8;
   }
