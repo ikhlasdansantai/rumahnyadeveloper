@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <button type="submit" class="btn">
+        <a href="../index.html"><i class="fa-solid fa-arrow-left" title="Kembali ke menu utama"></i></a></button>
+      <input type="checkbox" id="flip">
+      <div class="cover">
+        <div class="front">
+          <img src="asset/1.jpeg" alt="leesoojin">
+          <div class="text">
+            <!-- <span class="text-1">Every new friend is a <br> new adventure</span>
+            <span class="text-2">Let's get connected</span> -->
+          </div>
+        </div>
+        <div class="back">
+          <img class="backImg" src="asset/2.jpeg" alt="shinJiyoon">
+          <div class="text">
+            <!-- <span class="text-1">Complete miles of journey <br> with one step</span>
+            <span class="text-2">Let's get started</span> -->
+          </div>
+        </div>
+      </div>
+      <div class="forms">
+          <div class="form-content">
+            <div class="login-form">
+              <div class="title">Masuk</div>
+            <form action="#">
+              <div class="input-boxes">
+                <div class="input-box">
+                  <i class="fas fa-envelope"></i>
+                  <input type="text" placeholder="Alamat email" id="email" required onkeydown="validation()">
+                </div>
+                <div class="input-box password">
+                  <i class="fas fa-lock"></i>
+                  <input type="password" placeholder="Masukan password" minlength="8" required>
+                </div>
+                <div class="text"><a href="#">Lupa Password</a></div>
+                <div class="button input-box">
+                  <input type="submit" value="Masuk" id="masuk">
+                </div>
+                <div class="text sign-up-text">Belum punya akun? <label for="flip">Daftar Sekarang</label></div>
+              </div>
+          </form>
+        </div>
+          <div class="signup-form">
+            <div class="title">Daftar</div>
+          <form action="#">
+              <div class="input-boxes">
+                <div class="input-box">
+                  <i class="fas fa-user"></i>
+                  <input type="text" placeholder="Username">
+                </div>
+                <div class="input-box">
+                  <i class="fas fa-envelope"></i>
+                  <input type="text" placeholder="Alamat Email" required>
+                </div>
+                <div class="input-box">
+                  <i class="fas fa-lock"></i>
+                  <input type="password" placeholder="Masukan Password" required>
+                </div>
+                <div class="button input-box">
+                  <input type="submit" value="Lanjut">
+                </div>
+                <div class="text sign-up-text">Sudah punya akun? <label for="flip">Masuk sekarang</label></div>
+              </div>
+        </form>
+      </div>
+      </div>
+      </div>
+    </div>
+    <p class="credit">Background Image by: <a href="https://www.instagram.com/zandraart/?hl=id">zandraart</a></p>
+  </body>
+  </html>
+  <script src="js/script.js"></script>
+  </body>
+</html>
