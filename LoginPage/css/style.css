@@ -8,6 +8,7 @@ body {
   background-image: url(../asset/bg.jpeg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
@@ -131,6 +132,7 @@ body {
   width: calc(100% / 2 - 25px);
 }
 .forms .form-content .title {
+  margin-top: 20px;
   position: relative;
   font-size: 24px;
   font-weight: 500;
